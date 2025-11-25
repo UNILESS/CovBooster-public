@@ -1,6 +1,6 @@
 # CovBooster 🚀
 
-CovBooster: Coverage Booster for Binary Code Clone Detection by Reduced Signatures_
+CovBooster: Coverage Booster for Binary Code Clone Detection by Reduced Signatures.
 
 > This work has been accepted for presentation at The 41st ACM/SIGAPP Symposium On Applied Computing (SAC 2026).
 
