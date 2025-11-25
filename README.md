@@ -169,10 +169,8 @@ The evaluation reports:
 
 If you find CovBooster useful in your research, please cite:
 
-> CovBooster: Coverage Booster for Binary Code Clone Detection by Reduced Signatures  
+> CovBooster: Coverage Booster for Binary Code Clone Detection by Reduced Signatures.  
 > To appear in The 41st ACM/SIGAPP Symposium on Applied Computing (SAC 2026).
-
-(Authors: Jeongwoo Kim, et al.)
 
 ## 🔍 Parameters
 
@@ -180,8 +178,6 @@ Key parameters that can be adjusted:
 
 - `TLSH_THRESHOLD`: TLSH similarity threshold (default: 0-40)
 - `SIZE_DIFF_THRESHOLD`: Maximum size difference ratio (default: 0.3)
-- `FP_WEIGHT`: False positive penalty weight (default: 10)
-- `MAX_DOMINATING_SET_SIZE`: Maximum dominating set size (default: 20)
 
 ## 🐛 Troubleshooting
 
