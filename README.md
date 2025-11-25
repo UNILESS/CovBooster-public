@@ -1,5 +1,9 @@
 # CovBooster 🚀
 
+**Paper Title:** _CovBooster: Coverage Booster for Binary Code Clone Detection by Reduced Signatures_
+
+> This work has been accepted for presentation at The 41st ACM/SIGAPP Symposium On Applied Computing (SAC 2026).
+
 This repository contains the implementation and evaluation code for the CovBooster approach, which uses dominating set algorithms to improve binary function detection coverage.
 
 ## 📋 Overview
@@ -162,7 +166,13 @@ The evaluation reports:
 4. **Comprehensive Analysis**: Detailed metrics and visualizations
 
 ## 📝 Citation
-To be announced later.
+
+If you find CovBooster useful in your research, please cite:
+
+> CovBooster: Coverage Booster for Binary Code Clone Detection by Reduced Signatures  
+> To appear in The 41st ACM/SIGAPP Symposium on Applied Computing (SAC 2026).
+
+(Authors: Jeongwoo Kim, et al.)
 
 ## 🔍 Parameters
 
@@ -183,7 +193,4 @@ Key parameters that can be adjusted:
 
 ## 📧 Contact
 
-For questions or issues, please open an issue on the repository or contact me an email (jeongwoo@korea.ac.kr).
-
-
-
+For questions or issues, please open an issue on the repository or contact me by email (jeongwoo@korea.ac.kr).
