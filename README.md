@@ -8,7 +8,7 @@ This repository contains the implementation and evaluation code for the CovBoost
 
 ## 📋 Overview
 
-CovBooster is a novel approach for binary function detection that leverages dominating set algorithms to select optimal binary sets for function matching. This method improves precision and recall compared to traditional TLSH-based approaches while maintaining robustness across different threshold values.
+CovBooster is a novel approach for binary function detection that leverages dominating set algorithms to select optimal binary sets for function matching.
 
 ## 🚀 Quick Start
 
