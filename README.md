@@ -87,7 +87,6 @@ Run the main evaluation script with dominating set approach:
 
 ```bash
 python3 evaluation_dominating.py <db_root> <base_result_directory>
-# Example: python3 evaluation_dominating.py sample_data test_output
 ```
 
 This will:
@@ -101,7 +100,6 @@ Generate ROC/PR curves and detailed analysis from evaluation results:
 
 ```bash
 python3 threshold_sensitivity_analysis.py <exp_dir>
-# Example: python3 threshold_sensitivity_analysis.py test_output/exp_20250925_131010
 ```
 
 This generates:
@@ -113,7 +111,6 @@ Generate ROC/PR curves and detailed analysis:
 
 ```bash
 python3 threshold_sensitivity_analysis.py <exp_dir>
-# Example: python3 threshold_sensitivity_analysis.py dominating_results/exp_20250925_131010
 ```
 
 ## 📊 Output Files
@@ -133,38 +130,6 @@ For each binary group, the following files are generated:
 - `threshold_roc_pr_curves.png`: ROC and PR curves
 - `threshold_detailed_analysis.png`: Detailed performance analysis
 
-## 🔬 Key Algorithms
-
-### Dominating Set Algorithm
-
-The core algorithm (`ds_algo.py`) implements a weighted dominating set approach:
-- Modified NetworkX algorithm for isolated nodes
-- Works on both directed and undirected graphs
-- Optimized for function detection graphs
-
-### Evaluation Pipeline
-
-1. **Function Discovery**: Find common functions across binaries
-2. **Graph Construction**: Build function similarity graphs
-3. **Dominating Set Selection**: Select optimal binary sets
-4. **Performance Evaluation**: Calculate Precision, Recall, F1-score, etc.
-
-## 📈 Performance Metrics
-
-The evaluation reports:
-- **Precision**: TP / (TP + FP)
-- **Recall**: TP / (TP + FN)
-- **F1-Score**: Harmonic mean of Precision and Recall
-- **Jaccard Similarity**: TP / (TP + FP + FN)
-- **NCG (Normalized Coverage Gain)**: TP / Dominating Set Size
-
-## 🎯 Key Features
-
-1. **Robustness**: Less sensitive to TLSH threshold variations
-2. **Accuracy**: Improved precision and recall compared to baseline
-3. **Efficiency**: Optimized algorithms with multiprocessing support
-4. **Comprehensive Analysis**: Detailed metrics and visualizations
-
 ## 📝 Citation
 
 If you find CovBooster useful in your research, please cite:
@@ -178,14 +143,6 @@ Key parameters that can be adjusted:
 
 - `TLSH_THRESHOLD`: TLSH similarity threshold (default: 0-40)
 - `SIZE_DIFF_THRESHOLD`: Maximum size difference ratio (default: 0.3)
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Memory errors**: Reduce the number of parallel processes or use smaller datasets
-2. **File not found**: Ensure TLSH data files are in the correct directory structure
-3. **Import errors**: Install all required packages from `requirements.txt`
 
 ## 📧 Contact
 
